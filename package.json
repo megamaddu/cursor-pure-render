@@ -1,0 +1,35 @@
+{
+  "name": "cursor-pure-render",
+  "version": "1.0.0",
+  "description": "omniscient's shouldComponentUpdate as an es2016 decorator",
+  "main": "dist/cursorPureRender.js",
+  "scripts": {
+    "build": "babel --stage 0 src/cursorPureRender.js --out-file dist/cursorPureRender.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spicydonuts/cursor-pure-render.git"
+  },
+  "keywords": [
+    "cursor",
+    "pure",
+    "render",
+    "decorator",
+    "class",
+    "react",
+    "omniscient"
+  ],
+  "author": "Michael Trotter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spicydonuts/cursor-pure-render/issues"
+  },
+  "homepage": "https://github.com/spicydonuts/cursor-pure-render",
+  "dependencies": {
+    "lodash.filter": "^3.1.1",
+    "lodash.isequal": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
+}
