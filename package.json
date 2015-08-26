@@ -1,6 +1,6 @@
 {
   "name": "cursor-pure-render",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "omniscient's shouldComponentUpdate as an es2016 decorator",
   "main": "dist/cursorPureRender.js",
   "scripts": {
