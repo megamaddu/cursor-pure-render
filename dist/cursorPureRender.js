@@ -22,6 +22,7 @@ function cursorPureRender(component) {
     console.warn('cursor-pure-render seems to be overwriting an existing \'shouldComponentUpdate\' function.\nDid you mean to include this mixin/decorator on the ' + (component && component.displayName || '[displayName not set]') + ' component?');
   }
   component.prototype.shouldComponentUpdate = shouldComponentUpdate;
+  return component;
 }
 
 /* below mostly stolen from
