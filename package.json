@@ -1,6 +1,6 @@
 {
   "name": "cursor-pure-render",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "omniscient's shouldComponentUpdate without the baggage",
   "main": "dist/cursorPureRender.js",
   "scripts": {
