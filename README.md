@@ -1,6 +1,6 @@
 # cursor-pure-render
 
-A decorator for a immutable-js cursor-aware version of the pure-render mixin, mostly stolen from [omniscient's](https://raw.githubusercontent.com/omniscientjs/omniscient/master/shouldupdate.js).
+A decorator for a immutable-js cursor-aware version of the pure-render mixin.
 
 example
 --------

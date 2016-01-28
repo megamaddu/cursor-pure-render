@@ -1,7 +1,7 @@
 {
   "name": "cursor-pure-render",
   "version": "1.0.3",
-  "description": "omniscient's shouldComponentUpdate without the baggage",
+  "description": "omniscient's shouldComponentUpdate as a decorator",
   "main": "dist/cursorPureRender.js",
   "scripts": {
     "lint": "eslint src",
@@ -25,9 +25,8 @@
     "url": "https://github.com/spicydonuts/cursor-pure-render/issues"
   },
   "homepage": "https://github.com/spicydonuts/cursor-pure-render",
-  "dependencies": {
-    "lodash.filter": "^4.0.0",
-    "lodash.isequal": "^4.0.0"
+  "peerDependencies": {
+    "omniscient": ">=4.0.0"
   },
   "devDependencies": {
     "babel": "^6.3.26",
